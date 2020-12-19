@@ -59,7 +59,7 @@ module.exports = {
 
 ### Babel Config (Not Recommended)
 
-If you are using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html) and want to allow the general use of enums except `const enum`:
+If you are using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html) and want to allow the general use of enums except `const enum`s:
 
 ```js
 module.exports = {
