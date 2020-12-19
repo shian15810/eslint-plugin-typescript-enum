@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-typescript-enum",
+  "version": "0.1.0",
+  "description": "ESLint rules for TypeScript enums.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shian15810/eslint-plugin-typescript-enum.git"
+  },
+  "keywords": [
+    "typescript",
+    "eslint",
+    "typescript-eslint",
+    "enum",
+    "typescript-enum",
+    "plugin",
+    "eslint-plugin",
+    "rules",
+    "eslint-rules"
+  ],
+  "author": "Chuah Chee Shian <shian15810@gmail.com> (https://github.com/shian15810)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shian15810/eslint-plugin-typescript-enum/issues"
+  },
+  "homepage": "https://github.com/shian15810/eslint-plugin-typescript-enum#readme"
+}
