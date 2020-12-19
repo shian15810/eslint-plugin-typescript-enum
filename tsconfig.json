@@ -1,6 +1,7 @@
 {
   "extends": "typesafeconfig",
   "compilerOptions": {
+    "module": "commonjs",
     "outDir": "dist"
   }
 }
