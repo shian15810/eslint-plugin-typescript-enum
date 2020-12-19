@@ -5,7 +5,7 @@ const noConstEnum = createRule({
   meta: {
     type: "problem",
     docs: {
-      description: "",
+      description: "Disallow the use of const enums",
       category: "Best Practices",
       recommended: "error",
     },
