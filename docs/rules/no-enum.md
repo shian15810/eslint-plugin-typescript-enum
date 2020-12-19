@@ -1,6 +1,6 @@
 # Disallow the use of all enums (`no-enum`)
 
-This rule disallows the use of enums.
+This rule disallows the use of all enums.
 
 ## Rule Details
 
