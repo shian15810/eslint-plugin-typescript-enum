@@ -31,7 +31,7 @@ This article provides a very in-depth exploration on the alternatives to TypeScr
 
 ## Installation
 
-First, install the required peer dependencies:
+First, install the peer dependencies:
 
 ```sh
 npm install --save-dev eslint typescript @typescript-eslint/parser
@@ -73,7 +73,7 @@ module.exports = {
 
 **Key**: :heavy_check_mark: = recommended, :wrench: = fixable, :thought_balloon: = requires type information
 
-| Name                                                             | Description                     | :heavy_check_mark: | :wrench: | :thought_balloon: |
-| ---------------------------------------------------------------- | ------------------------------- | ------------------ | -------- | ----------------- |
-| [`typescript-enum/no-const-enum`](./docs/rules/no-const-enum.md) | Disallow the use of const enums |                    |          |                   |
-| [`typescript-enum/no-enum`](./docs/rules/no-enum.md)             | Disallow the use of enums       | :heavy_check_mark: |          |                   |
+| Name                                                           | Description                     | :heavy_check_mark: | :wrench: | :thought_balloon: |
+| -------------------------------------------------------------- | ------------------------------- | ------------------ | -------- | ----------------- |
+| [`typescript-enum/no-const-enum`](docs/rules/no-const-enum.md) | Disallow the use of const enums |                    |          |                   |
+| [`typescript-enum/no-enum`](docs/rules/no-enum.md)             | Disallow the use of all enums   | :heavy_check_mark: |          |                   |
