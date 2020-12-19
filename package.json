@@ -4,6 +4,7 @@
   "description": "ESLint rules for TypeScript enums.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/shian15810/eslint-plugin-typescript-enum/issues"
   },
-  "homepage": "https://github.com/shian15810/eslint-plugin-typescript-enum#readme"
+  "homepage": "https://github.com/shian15810/eslint-plugin-typescript-enum#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typesafeconfig": "^4.1.0",
+    "typescript": "^4.1.3"
+  }
 }

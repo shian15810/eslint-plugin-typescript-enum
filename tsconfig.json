@@ -1,0 +1,6 @@
+{
+  "extends": "typesafeconfig",
+  "compilerOptions": {
+    "outDir": "dist"
+  }
+}
