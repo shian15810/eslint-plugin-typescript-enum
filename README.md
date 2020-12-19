@@ -21,7 +21,7 @@ Moreover, using enums in TypeScript has a lot of caveats and edge cases to keep 
 - https://maxheiber.medium.com/alternatives-to-typescript-enums-50e4c16600b1
 - https://stackoverflow.com/questions/40275832/typescript-has-unions-so-are-enums-redundant/60041791#60041791
 
-Additionally, if you have been using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html), you might already know that one of the caveats is to avoid using `const enum`s, as those require type information to compile.
+Additionally, if you have been using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html), you might already notice that one of the caveats is to avoid using `const enum`s, as those require type information to compile.
 
 Nonetheless, TypeScript is still a very fantastic and powerful programming language that I love very much. Enums may have been a very good feature to have back in the early days (2011) when good alternatives did not yet exist.
 
