@@ -14,14 +14,14 @@ In other words, TypeScript enums have their corresponsing runtime representation
 
 Having this TypeScript feature extending into your compiled JavaScript also conflicts with the TypeScript slogan of being a **typed superset of JavaScript**, which further introduces vendor lock-in.
 
-[Orta Therox](https://github.com/orta) from Typescript team mentioned in one of his [YouTube video](https://www.youtube.com/watch?v=8qm49TyMUPI&t=1240) that the TypeScript team actually regrets some of the changes it made in the beginning, including introducing enums which basically add features to JavaScript.
+[Orta Therox](https://github.com/orta) from Typescript team mentioned in one of his [YouTube video](https://www.youtube.com/watch?v=8qm49TyMUPI&t=1240)s that the TypeScript team actually regrets some of the changes it made in the beginning, including introducing enums which basically add features to JavaScript.
 
 Moreover, using enums in TypeScript has a lot of caveats and edge cases to keep in mind. Some aspects of it are even considered **not type safe**!!! Head over to these wonderful articles for more details on these issues:
 
 - https://maxheiber.medium.com/alternatives-to-typescript-enums-50e4c16600b1
 - https://stackoverflow.com/questions/40275832/typescript-has-unions-so-are-enums-redundant/60041791#60041791
 
-Additionally, if you have been using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html), you might already notice that one of the [caveats](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html#caveats) is to avoid using `const enum`s, as those require type information to compile.
+Additionally, if you have been using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html), you might already notice that one of the [important caveat](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html#caveats)s is to avoid using `const enum`s, as those require type information to compile.
 
 Nonetheless, TypeScript is still a very fantastic and powerful programming language that I love very much. Enums may have been a very good feature to have back in the early days (2011) when good alternatives did not yet exist.
 
