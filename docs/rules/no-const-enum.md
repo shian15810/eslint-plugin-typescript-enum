@@ -1,6 +1,6 @@
-# Disallow the use of TypeScript const enums (`no-const-enum`)
+# Disallow the use of const enums (`no-const-enum`)
 
-This rule disallows the use of TypeScript const enums.
+This rule disallows the use of `const enum`s.
 
 ## Rule Details
 

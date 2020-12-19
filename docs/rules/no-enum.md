@@ -1,6 +1,6 @@
-# Disallow the use of TypeScript enums (`no-enum`)
+# Disallow the use of enums (`no-enum`)
 
-This rule disallows the use of TypeScript enums.
+This rule disallows the use of enums.
 
 ## Rule Details
 
