@@ -21,11 +21,11 @@ Moreover, using enums in TypeScript has a lot of caveats and edge cases to keep 
 - https://maxheiber.medium.com/alternatives-to-typescript-enums-50e4c16600b1
 - https://stackoverflow.com/questions/40275832/typescript-has-unions-so-are-enums-redundant/60041791#60041791
 
-Additionally, if you have been using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html), you might already notice that one of the [important caveat](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html#caveats)s is to avoid using `const enum`s, as those require type information to compile.
+Additionally, if you have been using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html), you might have already noticed that one of the [important caveat](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html#caveats)s is to avoid using `const enum`s, as those require type information to compile.
 
-Nonetheless, TypeScript is still a very fantastic and powerful programming language that I love very much. Enums may have been a very good feature to have back in the early days (2011) when good alternatives did not yet exist.
+Nonetheless, TypeScript is undoubtedly a very fantastic programming language with an extremely powerful type system. Enums may have been a very good feature to have back in the early days (2011) when good alternatives did not yet exist.
 
-However, we now already have alternatives better than enums, such as **const assertions**, **string unions**, **discriminated union**, etc. Which is why I created this ESLint plugin to provide you with some handy configs and rules to disallow the use of TypeScript enums.
+We now already have much better alternatives than enums, such as **const assertions**, **string unions**, **discriminated union**, etc. Which is why I created this ESLint plugin to provide you with some handy configs and rules to disallow the use of TypeScript enums.
 
 This article provides a very in-depth exploration on the alternatives to TypeScript enums:
 
