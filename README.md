@@ -77,3 +77,7 @@ module.exports = {
 | -------------------------------------------------------------- | ------------------------------- | ------------------ | -------- | ----------------- |
 | [`typescript-enum/no-const-enum`](docs/rules/no-const-enum.md) | Disallow the use of const enums |                    |          |                   |
 | [`typescript-enum/no-enum`](docs/rules/no-enum.md)             | Disallow the use of all enums   | :heavy_check_mark: |          |                   |
+
+## Contributing
+
+Feel free to suggest new configs and rules, PRs are also welcomed!
