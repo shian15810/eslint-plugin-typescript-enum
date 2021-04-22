@@ -55,7 +55,7 @@ Configure this plugin in your ESLint configuration file (`.eslintrc.js`), this w
 module.exports = {
   parser: "@typescript-eslint/parser",
   plugins: ["typescript-enum"],
-  extends: ["typescript-enum/recommended"],
+  extends: ["plugin:typescript-enum/recommended"],
 };
 ```
 
@@ -67,7 +67,7 @@ If you are using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en
 module.exports = {
   parser: "@typescript-eslint/parser",
   plugins: ["typescript-enum"],
-  extends: ["typescript-enum/babel"],
+  extends: ["plugin:typescript-enum/babel"],
 };
 ```
 
