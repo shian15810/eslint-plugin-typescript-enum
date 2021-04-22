@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-typescript-enum",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "ESLint rules for TypeScript enums.",
   "main": "dist",
   "scripts": {
