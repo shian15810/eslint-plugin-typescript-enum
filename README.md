@@ -21,7 +21,7 @@ Moreover, using enums in TypeScript has a lot of caveats and edge cases to keep 
 - https://maxheiber.medium.com/alternatives-to-typescript-enums-50e4c16600b1
 - https://stackoverflow.com/questions/40275832/typescript-has-unions-so-are-enums-redundant/60041791#60041791
 
-Additionally, if you have been using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html), you might have already noticed that one of the [important caveat](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html#caveats)s is to avoid using `const enum`s, as those require type information to compile.
+Additionally, if you have been using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html), you might have already noticed that one of the [important caveat](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html#caveats)s is to avoid using `const` enums, as those require type information to compile.
 
 Nonetheless, TypeScript is undoubtedly a very fantastic programming language with an extremely powerful type system. Enums may have been a very good feature to have back in the early days (2011) when good alternatives did not yet exist.
 
@@ -30,6 +30,12 @@ We now already have much better alternatives than enums, such as **const asserti
 This article provides a very in-depth exploration on the alternatives to TypeScript enums:
 
 - https://2ality.com/2020/02/enum-alternatives-typescript.html
+
+Last but not least, as stated in [Objects vs Enums section of TypeScript Handbook on Enums](https://www.typescriptlang.org/docs/handbook/enums.html#objects-vs-enums):
+
+> In modern TypeScript, you may not need an enum when an object with as const could suffice.
+>
+> The biggest argument in favour of this format over TypeScript’s enum is that it keeps your codebase aligned with the state of JavaScript, and when/if enums are added to JavaScript then you can move to the additional syntax.
 
 ## Installation
 
@@ -61,7 +67,7 @@ module.exports = {
 
 ### Babel Config (Not Recommended)
 
-If you are using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html) and want to allow the general use of enums except `const enum`s:
+If you are using [@babel/plugin-transform-typescript](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html) and want to allow the general use of enums except `const` enums:
 
 ```js
 module.exports = {
@@ -75,10 +81,10 @@ module.exports = {
 
 **Key**: :heavy_check_mark: = recommended, :wrench: = fixable, :thought_balloon: = requires type information
 
-| Name                                                           | Description                     | :heavy_check_mark: | :wrench: | :thought_balloon: |
-| -------------------------------------------------------------- | ------------------------------- | ------------------ | -------- | ----------------- |
-| [`typescript-enum/no-const-enum`](docs/rules/no-const-enum.md) | Disallow the use of const enums |                    |          |                   |
-| [`typescript-enum/no-enum`](docs/rules/no-enum.md)             | Disallow the use of all enums   | :heavy_check_mark: |          |                   |
+| Name                                                           | Description                            | :heavy_check_mark: | :wrench: | :thought_balloon: |
+| -------------------------------------------------------------- | -------------------------------------- | ------------------ | -------- | ----------------- |
+| [`typescript-enum/no-const-enum`](docs/rules/no-const-enum.md) | Disallow TypeScript `const` enums      |                    |          |                   |
+| [`typescript-enum/no-enum`](docs/rules/no-enum.md)             | Disallow all types of TypeScript enums | :heavy_check_mark: |          |                   |
 
 ## Contributing
 

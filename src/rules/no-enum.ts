@@ -1,16 +1,19 @@
 import { createRule } from "../util";
 
-const noEnum = createRule({
+type MessageIds = "noEnum";
+type Options = [];
+
+const noEnum = createRule<Options, MessageIds>({
   name: "no-enum",
   meta: {
     type: "problem",
     docs: {
-      description: "Disallow the use of all enums",
-      category: "Best Practices",
+      description: "Disallow all types of TypeScript enums",
       recommended: "error",
     },
     messages: {
-      message: "Unexpected enum.",
+      noEnum:
+        "In modern TypeScript, you may not need an enum when an object with `as const` could suffice.",
     },
     schema: [],
   },
@@ -19,7 +22,7 @@ const noEnum = createRule({
     TSEnumDeclaration: (node) => {
       context.report({
         node,
-        messageId: "message",
+        messageId: "noEnum",
       });
     },
   }),
