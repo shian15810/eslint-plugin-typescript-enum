@@ -31,12 +31,12 @@
   },
   "homepage": "https://github.com/shian15810/eslint-plugin-typescript-enum#readme",
   "dependencies": {
-    "@typescript-eslint/experimental-utils": "^4.10.0"
+    "@typescript-eslint/experimental-utils": "^5.3.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.41",
+    "@types/node": "^16.11.6",
     "rimraf": "^3.0.2",
-    "typesafeconfig": "^4.2.0",
-    "typescript": "^4.2.4"
+    "typesafeconfig": "^4.3.0",
+    "typescript": "^4.4.4"
   }
 }
