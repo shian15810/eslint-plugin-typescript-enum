@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@types/node": "^16.11.6",
-    "rimraf": "^3.0.2",
+    "rimraf": "^4.0.4",
     "typesafeconfig": "^4.3.0",
     "typescript": "^4.4.4"
   }
