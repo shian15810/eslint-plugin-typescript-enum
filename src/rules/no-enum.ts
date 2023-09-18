@@ -9,7 +9,7 @@ const noEnum = createRule<Options, MessageIds>({
     type: "problem",
     docs: {
       description: "Disallow all types of TypeScript enums",
-      recommended: "error",
+      recommended: "recommended",
     },
     messages: {
       noEnum:
