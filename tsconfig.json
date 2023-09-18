@@ -2,6 +2,7 @@
   "extends": "typesafeconfig",
   "compilerOptions": {
     "module": "commonjs",
+    "moduleResolution": "Bundler",
     "outDir": "dist"
   }
 }
